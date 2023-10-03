@@ -9,8 +9,13 @@ table {
 
 .teamCol {
   text-align: left;
+  min-width: 100px;
 }
 
 td {
   min-width: 40px;
+}
+
+.scoreInput {
+  display: inline-block;
 }
