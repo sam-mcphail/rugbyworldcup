@@ -533,11 +533,14 @@ document.getElementById('samoa').onclick = function () {
 //-------------//
 //  Quarter 1  //
 //-------------//
+
+// QF1A //
 document.getElementById('qf1a').onclick = function () {
   document.getElementById('sf1a').innerHTML =
     document.getElementById('qf1a').innerHTML
 }
 
+// QF1B //
 document.getElementById('qf1b').onclick = function () {
   document.getElementById('sf1a').innerHTML =
     document.getElementById('qf1b').innerHTML
@@ -546,11 +549,14 @@ document.getElementById('qf1b').onclick = function () {
 //-------------//
 //  Quarter 2  //
 //-------------//
+
+// QF2A //
 document.getElementById('qf2a').onclick = function () {
   document.getElementById('sf1b').innerHTML =
     document.getElementById('qf2a').innerHTML
 }
 
+// QF2B //
 document.getElementById('qf2b').onclick = function () {
   document.getElementById('sf1b').innerHTML =
     document.getElementById('qf2b').innerHTML
@@ -559,11 +565,14 @@ document.getElementById('qf2b').onclick = function () {
 //-------------//
 //  Quarter 3  //
 //-------------//
+
+// QF3A //
 document.getElementById('qf3a').onclick = function () {
   document.getElementById('sf2a').innerHTML =
     document.getElementById('qf3a').innerHTML
 }
 
+// QF3B //
 document.getElementById('qf3b').onclick = function () {
   document.getElementById('sf2a').innerHTML =
     document.getElementById('qf3b').innerHTML
@@ -572,11 +581,14 @@ document.getElementById('qf3b').onclick = function () {
 //-------------//
 //  Quarter 4  //
 //-------------//
+
+// QF4A //
 document.getElementById('qf4a').onclick = function () {
   document.getElementById('sf2b').innerHTML =
     document.getElementById('qf4a').innerHTML
 }
 
+// QF4B //
 document.getElementById('qf4b').onclick = function () {
   document.getElementById('sf2b').innerHTML =
     document.getElementById('qf4b').innerHTML
@@ -585,6 +597,8 @@ document.getElementById('qf4b').onclick = function () {
 //-------------//
 //   Semi 1    //
 //-------------//
+
+// SF1A //
 document.getElementById('sf1a').onclick = function () {
   document.getElementById('gfa').innerHTML =
     document.getElementById('sf1a').innerHTML
@@ -592,6 +606,7 @@ document.getElementById('sf1a').onclick = function () {
     document.getElementById('sf1b').innerHTML
 }
 
+// SF1B //
 document.getElementById('sf1b').onclick = function () {
   document.getElementById('gfa').innerHTML =
     document.getElementById('sf1b').innerHTML
@@ -602,6 +617,8 @@ document.getElementById('sf1b').onclick = function () {
 //-------------//
 //   Semi 2    //
 //-------------//
+
+// SF2A //
 document.getElementById('sf2a').onclick = function () {
   document.getElementById('gfb').innerHTML =
     document.getElementById('sf2a').innerHTML
@@ -609,6 +626,7 @@ document.getElementById('sf2a').onclick = function () {
     document.getElementById('sf2b').innerHTML
 }
 
+// SF2B //
 document.getElementById('sf2b').onclick = function () {
   document.getElementById('gfb').innerHTML =
     document.getElementById('sf2b').innerHTML
@@ -619,11 +637,14 @@ document.getElementById('sf2b').onclick = function () {
 //-------------//
 //   Bronze    //
 //-------------//
+
+// BFA //
 document.getElementById('bfa').onclick = function () {
   document.getElementById('third').innerHTML =
     document.getElementById('bfa').innerHTML
 }
 
+// BFB //
 document.getElementById('bfb').onclick = function () {
   document.getElementById('third').innerHTML =
     document.getElementById('bfb').innerHTML
@@ -632,12 +653,43 @@ document.getElementById('bfb').onclick = function () {
 //-------------//
 //    Final    //
 //-------------//
+
+// GFA //
 document.getElementById('gfa').onclick = function () {
   document.getElementById('winner').innerHTML =
     document.getElementById('gfa').innerHTML
 }
 
+// GFB //
 document.getElementById('gfb').onclick = function () {
   document.getElementById('winner').innerHTML =
     document.getElementById('gfb').innerHTML
+}
+
+// KNOCKOUT BUTTON //
+document.getElementById('knockoutButton').onclick = function () {
+  // QF1A //
+  document.getElementById('qf1a').innerHTML =
+    document.getElementById('poolCFirst').innerHTML
+  // QF1B //
+  document.getElementById('qf1b').innerHTML =
+    document.getElementById('poolDSecond').innerHTML
+  // QF2A //
+  document.getElementById('qf2a').innerHTML =
+    document.getElementById('poolBFirst').innerHTML
+  // QF2B //
+  document.getElementById('qf2b').innerHTML =
+    document.getElementById('poolASecond').innerHTML
+  // QF3A //
+  document.getElementById('qf3a').innerHTML =
+    document.getElementById('poolDFirst').innerHTML
+  // QF3B //
+  document.getElementById('qf3b').innerHTML =
+    document.getElementById('poolCSecond').innerHTML
+  // QF4A //
+  document.getElementById('qf4a').innerHTML =
+    document.getElementById('poolAFirst').innerHTML
+  // QF4B //
+  document.getElementById('qf4b').innerHTML =
+    document.getElementById('poolBSecond').innerHTML
 }
