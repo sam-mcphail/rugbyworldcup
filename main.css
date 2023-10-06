@@ -15,6 +15,7 @@ table {
   text-align: left;
   min-width: 300px;
   border: 1px solid black;
+  font-size: 20px;
 }
 
 td {
@@ -37,4 +38,8 @@ td {
 #knockout {
   font-size: 20px;
   background-color: rgb(186, 186, 186);
+}
+
+.resetButton {
+  color: red;
 }
