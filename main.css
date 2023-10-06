@@ -1,15 +1,20 @@
 body {
   font-family: Raleway, sans-serif;
+  text-align: center;
+  background-color: aqua;
 }
 
 table {
   border: 1px solid black;
   text-align: center;
+  font-size: 25px;
+  margin: auto;
 }
 
 .teamCol {
   text-align: left;
-  min-width: 100px;
+  min-width: 300px;
+  border: 1px solid black;
 }
 
 td {
@@ -18,4 +23,18 @@ td {
 
 .scoreInput {
   display: inline-block;
+}
+
+.bordered {
+  border: 1px solid black;
+}
+
+#knockout td {
+  min-width: 150px;
+  min-height: 50px;
+}
+
+#knockout {
+  font-size: 20px;
+  background-color: rgb(186, 186, 186);
 }

@@ -12,136 +12,203 @@
   </head>
   <body>
     <h1>Predictor</h1>
-    <h2>Pool A</h2>
-    <table>
+    <div id="poolABlock">
+      <h2>Pool A</h2>
+      <table>
+        <thead>
+          <tr>
+            <td>Pos</td>
+            <td>Team</td>
+          </tr>
+        </thead>
+        <tr>
+          <td>1</td>
+          <td id="poolAFirst" class="teamCol"></td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td id="poolASecond" class="teamCol"></td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td id="poolAThird" class="teamCol"></td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td id="poolAFourth" class="teamCol"></td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td id="poolAFifth" class="teamCol"></td>
+        </tr>
+      </table>
+      <h3>Teams:</h3>
+      <p id="france">France</p>
+      <p id="newZealand">New Zealand</p>
+      <p id="italy">Italy</p>
+      <p id="uruguay">Uruguay</p>
+      <p id="namibia">Namibia</p>
+    </div>
+    <div id="poolBBlock">
+      <h2>Pool B</h2>
+      <table>
+        <thead>
+          <tr>
+            <td>Pos</td>
+            <td>Team</td>
+          </tr>
+        </thead>
+        <tr>
+          <td>1</td>
+          <td class="teamCol"></td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td class="teamCol"></td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td class="teamCol"></td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td class="teamCol"></td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td class="teamCol"></td>
+        </tr>
+      </table>
+    </div>
+    <div id="poolCBlock">
+      <h2>Pool C</h2>
+      <table>
+        <thead>
+          <tr>
+            <td>Pos</td>
+            <td>Team</td>
+          </tr>
+        </thead>
+        <tr>
+          <td>1</td>
+          <td class="teamCol"></td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td class="teamCol"></td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td class="teamCol"></td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td class="teamCol"></td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td class="teamCol"></td>
+        </tr>
+      </table>
+    </div>
+    <div id="poolDBlock">
+      <h2>Pool D</h2>
+      <table>
+        <thead>
+          <tr>
+            <td>Pos</td>
+            <td>Team</td>
+          </tr>
+        </thead>
+        <tr>
+          <td>1</td>
+          <td class="teamCol"></td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td class="teamCol"></td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td class="teamCol"></td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td class="teamCol"></td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td class="teamCol"></td>
+        </tr>
+      </table>
+    </div>
+    <h2>Knockout</h2>
+    <table id="knockout">
       <tr>
-        <td>Pos</td>
-        <td>Flag</td>
-        <td>Team</td>
+        <td class="bordered" id="qf1a">1st Pool C</td>
+        <td>Quarter Final</td>
+        <td class="bordered" id="qf1b">2nd Pool D</td>
+        <td></td>
+        <td class="bordered" id="qf2a">1st Pool B</td>
+        <td>Quarter Final</td>
+        <td class="bordered" id="qf2b">2nd Pool A</td>
+      </tr>
+      <br />
+      <tr>
+        <td></td>
+        <td></td>
+        <td class="bordered" id="sf1a">Winner QF 1</td>
+        <td>Semi Final</td>
+        <td class="bordered" id="sf1b">Winner QF 2</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <br />
+
+      <tr>
+        <td></td>
+        <td></td>
+        <td class="bordered" id="bfa">Loser SF 1</td>
+        <td></td>
+        <td class="bordered" id="gfa">Winner SF 1</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="bordered" id="third">Winner 3rd Final</td>
+        <td></td>
+        <td>3rd Place Final</td>
+        <td></td>
+        <td>Final</td>
+        <td></td>
+        <td class="bordered" id="winner">Winner Final</td>
+      </tr>
+      <tr>
+        <td>3rd Place</td>
+        <td></td>
+        <td class="bordered" id="bfb">Loser SF 2</td>
+        <td></td>
+        <td class="bordered" id="gfb">Winner SF 2</td>
+        <td></td>
+        <td>Winner</td>
       </tr>
       <tr>
         <td></td>
         <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
+        <td class="bordered" id="sf2a">Winner QF 3</td>
+        <td>Semi Final</td>
+        <td class="bordered" id="sf2b">Winner QF 4</td>
         <td></td>
         <td></td>
       </tr>
       <tr>
+        <td class="bordered" id="qf3a">1st Pool D</td>
+        <td>Quarter Final</td>
+        <td class="bordered" id="qf3b">2nd Pool C</td>
         <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-    </table>
-    <h2>Pool <b></b></h2>
-    <table>
-      <tr>
-        <td>Pos</td>
-        <td>Flag</td>
-        <td>Team</td>
-      </tr>
-      <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-    </table>
-    <h2>Pool C</h2>
-    <table>
-      <tr>
-        <td>Pos</td>
-        <td>Flag</td>
-        <td>Team</td>
-      </tr>
-      <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-    </table>
-    <h2>Pool D</h2>
-    <table>
-      <tr>
-        <td>Pos</td>
-        <td>Flag</td>
-        <td>Team</td>
-      </tr>
-      <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td class="bordered" id="qf4a">1st Pool A</td>
+        <td>Quarter Final</td>
+        <td class="bordered" id="qf4b">2nd Pool B</td>
       </tr>
     </table>
     <script type="module" src="predictor.js"></script>
